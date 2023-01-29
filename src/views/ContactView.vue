@@ -15,7 +15,7 @@
   </div>
 
   <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9263.527839464097!2d18.5394767787376!3d54.5179431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda73a45fc6af7%3A0x449c32549daa860f!2sPark%20Rady%20Europy!5e0!3m2!1spl!2spl!4v1672747155542!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d81038.60398401858!2d18.493648395587027!3d54.47908298614971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1674996822525!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 </template>
