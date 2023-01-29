@@ -1,19 +1,17 @@
 <script setup>
-
-import HelloWorld from "@/components/HelloWorld.vue";
 </script>
 
 <template>
-  <section class="hero is-primary is-large header-image">
+  <section class="hero is-primary is-large body-img">
     <div class="hero-head">
     </div>
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title is-2">
-          Witamy na stronie Uczelni
+          Prawie 30 lat doświadczenia
         </h1>
         <h2 class="subtitle is-5">
-          A hero description could go here.
+          Gdańsk - Sopot - Gdynia - Trójmiasto
         </h2>
       </div>
     </div>
@@ -21,53 +19,58 @@ import HelloWorld from "@/components/HelloWorld.vue";
   <div class="hero-cta">
     <nav class="level">
       <div class="level-item has-text-centered">
-        <p class="title">Rekrutacja
-          <a class="button is-primary">
-            <span>Zapisz się</span>
-          </a>
-        </p>
+        <p class="title">Opowiedz nam o swoim projekcie</p>
       </div>
     </nav>
+    <nav class="level">
+      <div class="level-item has-text-centered">
+        <a href="/kontakt" class="button is-danger">
+          <span>Skontaktuj się</span>
+        </a>
+      </div>
+    </nav>
+    
   </div>
   <div class="section main">
     <div class="container">
       <div class="columns">
+
         <div class="column is-4">
           <div class="panel">
             <div class="panel-block section">
-              <p class="has-text-centered"><i class="fa fa-camera-retro icon-block"></i></p>
-              <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-              <br>
-              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+              <p> Zapewniamy bezpieczeństwo nawet przy realizacjach obarczonych wysokim współczynnikiem ryzyka. Każde zadanie możemy zrealizować kompleksowo, posiadamy stosowne zezwolenia oraz szeroką gamę uprawnień. Pracujemy dla inwestorów publicznych, korporacji budowlanych, małych firm i osób prywatnych.</p>
             </div>
           </div>
         </div>
         <div class="column is-4">
           <div class="panel">
             <div class="panel-block section">
-              <p class="has-text-centered"><i class="fa fa-bar-chart icon-block"></i></p>
-              <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-              <br>
-              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+              <p>Kim jesteśmy? Kopa-Rex Sp. z o.o. to firma budowlana, która powstała w 1990 roku. Usługi realizujemy głównie na terenie Trójmiasta, ale również w całym kraju. Doświadczenie łączymy z ciągłym rozwojem oraz śledzeniem nowinek na rynku budowlanym. </p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="panel">
+            <div class="panel-block section">
+              <p>Zakres prac? Od wyburzenia i rozbiórki obiektów, poprzez budowę nowych dróg i obiektów kubaturowych, aż po recykling gruzu i rekultywację terenu. </p>
             </div>
           </div>
 
         </div>
-        <div class="column is-4">
-          <div class="panel">
-            <div class="panel-block section">
-              <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
-              <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-              <br>
-              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
-            </div>
-          </div>
 
-        </div>
       </div>
     </div>
   </div>
 </template>
+
+<style>
+
+.body-img{
+  background-image: url("src/img/body-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+</style>
